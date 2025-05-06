@@ -3,7 +3,7 @@ export const projects = [
     title: "BogeyTracker",
     description:
       "Disku golfa rezultātu apkopošanas mobilā lietotne ar Firebase autentifikāciju un datu glabāšanu. Iespēja pievienot savus laukumus ar groziem.",
-    image: "/public/images/bt.png",
+    image: "/images/bt.png",
     github: "https://github.com/udensbalts/BogeyTracker",
     demo: "",
     techStack: ["Flutter ", "Dart ", "Firebase "],
@@ -12,7 +12,7 @@ export const projects = [
     title: "To-Do App",
     description:
       "Vienkārša uzdevumu lietotne ar iespēju pievienot, dzēst un pārslēgt uzdevumus. Izveidota ar React un TypeScript.",
-    image: "/public/images/to-do-app.png",
+    image: "/images/to-do-app.png",
     github: "https://github.com/udensbalts/To-Do-App",
     demo: "",
     techStack: ["React ", "TypeScript ", "Tailwind CSS "],
@@ -21,7 +21,7 @@ export const projects = [
     title: "Movie App",
     description:
       "Filmu meklēšanas lietotne ar React un TypeScript, izmantojot ārēju API datu iegūšanai un filmu detalizēta skatījuma attēlošanai.",
-    image: "/public/images/movie-app.png",
+    image: "/images/movie-app.png",
     github: "https://github.com/udensbalts/Movie-App",
     demo: "",
     techStack: ["React ", "TypeScript ", "Tailwind CSS "],
@@ -30,7 +30,7 @@ export const projects = [
     title: "Tic-Tac-Toe",
     description:
       "Klasiska TicTacToe spēle ar gājienu vēstures saglabāšanu un iespēju atgriezties kādā no gājieniem.",
-    image: "/public/images/tictactoe.png",
+    image: "/images/tictactoe.png",
     github: "https://github.com/udensbalts/tic-tac-toe",
     demo: "",
     techStack: ["React ", "JavaScript ", "CSS "],

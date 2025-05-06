@@ -29,7 +29,10 @@ const AboutSection: React.FC = () => {
           </p>
 
           <div className="about__resume">
-            <a href="#" className="resume__link">
+            <a
+              href="https://drive.google.com/file/d/1ZVQCzMPl7WuTcJfczDKzgVoBblB0qzL7/view?usp=sharing"
+              className="resume__link"
+            >
               Apskatīt CV
             </a>
           </div>
