@@ -1,0 +1,136 @@
+.project-card {
+  background-color: #1e3948;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+  }
+
+  &__image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //background: rgba(100, 255, 218, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover &__overlay {
+    opacity: 1;
+  }
+
+  &:hover &__image {
+    transform: scale(1.05);
+  }
+
+  &__content {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      margin: 0 0 12px;
+      color: #877259;
+      font-size: 1.4rem;
+    }
+
+    p {
+      color: #ccd6f6;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      flex-grow: 1;
+    }
+  }
+
+  &__tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+
+    span {
+      background-color: rgba(153, 117, 16, 0.1);
+      color: #877259;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-family: "SF Mono", monospace;
+      border: 1px solid #877259;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+
+    a {
+      padding: 10px 16px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .github-button {
+      color: #877259;
+      border: 1px solid #877259;
+      background: transparent;
+
+      &:hover {
+        background: rgba(153, 117, 16, 0.1);
+      }
+    }
+
+    .demo-button {
+      color: #0a192f;
+      background: #64ffda;
+      border: 1px solid #64ffda;
+
+      &:hover {
+        background: #52e0c4;
+        border-color: #52e0c4;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    &__content {
+      padding: 16px;
+
+      h3 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-color: #877259;
+  color: #1e3948;
+  text-align: center;
+  background-image: radial-gradient(#1e3948 1px, transparent 1px);
+  background-size: 40px 40px;
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__button {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #1e3948;
+    color: #877259;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: rgba(100, 255, 218, 0.1);
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 2.5rem;
+    }
+
+    &__subtitle {
+      font-size: 1.125rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding: 4rem 2rem;
+
+    &__content {
+      padding: 2rem;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__subtitle {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    &__title {
+      font-size: 3.5rem;
+    }
+
+    &__subtitle {
+      font-size: 1.5rem;
+    }
+  }
+}
