@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
     <section className="hero" id="hero">
       <div className="hero__content">
         <h1 className="hero__title">
-          Sveiki, esmu Ralfs Konovs - Front-end izstrādātājs
+          Sveiki, esmu Ralfs Konovs - junior full-stack izstrādātājs
         </h1>
         <p className="hero__description">
           React / TypeScript / Tailwind CSS / Firebase / Flutter

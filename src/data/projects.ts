@@ -35,4 +35,13 @@ export const projects = [
     demo: "",
     techStack: ["React ", "JavaScript ", "CSS "],
   },
+  {
+    title: "Pasākumu biļešu platforma",
+    description:
+      "Laravel balstīta tīmekļa platforma, kas ļauj veidot un pārvaldīt pasākumus, reģistrēt lietotājus, pārdot biļetes un pārvaldīt pasūtījumus. Projekts ietver autentifikāciju, datu bāzes pārvaldību un Docker vidi",
+    image: "/images/in-progress.png",
+    github: "",
+    demo: "",
+    techStack: ["Laravel ", "Docker ", "MySQL "],
+  },
 ];
