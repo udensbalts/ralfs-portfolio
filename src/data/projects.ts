@@ -40,7 +40,7 @@ export const projects = [
     description:
       "Laravel balstīta tīmekļa platforma, kas ļauj veidot un pārvaldīt pasākumus, reģistrēt lietotājus, pārdot biļetes un pārvaldīt pasūtījumus. Projekts ietver autentifikāciju, datu bāzes pārvaldību un Docker vidi",
     image: "/images/in-progress.png",
-    github: "",
+    github: "https://github.com/udensbalts/ticketing-platform",
     demo: "",
     techStack: ["Laravel ", "Docker ", "MySQL "],
   },
